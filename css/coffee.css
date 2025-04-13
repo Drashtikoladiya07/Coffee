@@ -1,0 +1,296 @@
+body {
+    background-color: #1d0e0b;
+}
+
+.navbar {
+    background: #2d1a14;
+    /* Deep brown */
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .nav-link.active {
+    color: #d59d5a !important;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    background-color: #d49c60;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.feature-text h4 {
+    font-weight: bold;
+}
+
+.feature-text p {
+    color: #555;
+}
+
+.feature-block {
+    margin-bottom: 2rem;
+}
+
+.promo-section {
+    background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7PmWQyy-u_XKKwvPgJM61K7ORGGzbNgiFwvinfua78uW9UqhY');
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+}
+
+.promo-section h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #f3b46d;
+}
+
+.promo-section h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.promo-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.signup-form input {
+    height: 50px;
+    font-size: 16px;
+}
+
+.signup-form .btn {
+    background-color: #d49c60;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+}
+
+.scroll-top {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.coffee-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d2b1f;
+    margin-bottom: 30px;
+}
+
+.coffee-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.coffee-img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.coffee-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.price-tag {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.coffee-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2b1e11;
+    margin-bottom: 5px;
+}
+
+.coffee-desc {
+    color: #6c757d;
+}
+
+.testimonial {
+    padding: 60px 0;
+}
+
+.testimonial .carousel-inner {
+    padding: 0 50px;
+}
+
+.testimonial-item {
+    display: flex;
+    gap: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.testimonial-content h5 {
+    font-weight: bold;
+    color: #3d2b1f;
+}
+
+.testimonial-content h6 {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.testimonial-content p {
+    color: #555;
+    margin-top: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #3d2b1f;
+}
+
+.footer {
+    background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7PmWQyy-u_XKKwvPgJM61K7ORGGzbNgiFwvinfua78uW9UqhY');
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer h5 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .icon-box i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footer .social-icons a {
+    border: 1px solid white;
+    padding: 10px 14px;
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    background-color: white;
+    color: #8b5b2d;
+}
+
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.footer .newsletter .btn {
+    background-color: #d49c60;
+    color: white;
+    border: none;
+}
+
+.footer .newsletter .btn:hover {
+    background-color: #c28645;
+}
+
+.footer .bottom-text {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.footer .bottom-text a {
+    color: #f4b27e;
+}
+
+.image {
+    background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7PmWQyy-u_XKKwvPgJM61K7ORGGzbNgiFwvinfua78uW9UqhY');
+    background-color: #2d1b0c;
+    color: #fff;
+}
+
+.reservation-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 60px 30px;
+}
+
+.form-control,
+.form-select {
+    background-color: transparent;
+    border: 1px solid #f4a950;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #f4a950;
+    box-shadow: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-custom {
+    background-color: #f4a950;
+    border: none;
+    color: #000;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.check-icon {
+    color: #f4a950;
+    margin-right: 10px;
+}
